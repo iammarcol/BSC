@@ -17,7 +17,7 @@ $ python generate_emb.py
 
 -> Plotting the reduced embeddings should output a similar plot as this one:
 
-![Alt Text](https://github.com/yourusername/yourrepository/raw/main/images/example.png)
+![Alt Text](plotted_globins.png)
 
 
 
