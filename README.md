@@ -9,7 +9,7 @@ train_data_path = 'Train/input.csv'
 embeddings_file = 'Train/embeddings.npy'  
 uniprot_ids_file = 'Train/uniprot_ids_pairs.csv'  
 
--> The commandline for the scrip execution is: 
+-> The commandline for the script execution is: 
 
 $ python generate_emb.py 
 
