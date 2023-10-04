@@ -21,6 +21,12 @@ $ python generate_emb.py
 
 
 
+Script (prostT5) reference:
+ProstT5: Bilingual Language Model for Protein Sequence and Structure
+Michael Heinzinger, Konstantin Weissenow, Joaquin Gomez Sanchez, Adrian Henkel, Martin Steinegger, Burkhard Rost
+bioRxiv 2023.07.23.550085; doi: https://doi.org/10.1101/2023.07.23.550085
+
+
 
 
 
