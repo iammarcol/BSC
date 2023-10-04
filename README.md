@@ -5,9 +5,9 @@ Repository created for projects done at BSC 2023/24
 
 -> Embeddings script asks for the input path and it generates two output files which paths are to be modified inside of the script:
 
-train_data_path = 'Train/input.csv'
-embeddings_file = 'Train/embeddings.npy'
-uniprot_ids_file = 'Train/uniprot_ids_pairs.csv'
+train_data_path = 'Train/input.csv'  
+embeddings_file = 'Train/embeddings.npy'  
+uniprot_ids_file = 'Train/uniprot_ids_pairs.csv'  
 
 -> The commandline for the scrip execution is: 
 
