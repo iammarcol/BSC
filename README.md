@@ -1,4 +1,4 @@
-# BSC
+# Generate Sequence Embeddings
 Repository created for projects done at BSC 2023/24
 
 -> In the directory /ProstT5 a python script for creating sequence embeddings "generate_emb.py" can be found. It is used to create sequence embeddings based on a multifasta imput file. The input file has to be in csv format and contain a header with EntryID and Sequence as columns at least. It can also contain other columns, if needed. The example csv file can be found at /Train/all_globins.csv. Along with this file, the original multifasta file with globin sequences is also provided, along with an additional python script "csv_generate.py" which is used to convert multifasta file to csv format. 
