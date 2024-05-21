@@ -27,6 +27,23 @@ Michael Heinzinger, Konstantin Weissenow, Joaquin Gomez Sanchez, Adrian Henkel, 
 bioRxiv 2023.07.23.550085; doi: https://doi.org/10.1101/2023.07.23.550085
 
 
+# Frustration Changes / Amino Acid Substitution Plots
+
+To generate (frustration) and amino acid substitution plots execute main.py script in the ./AA_Sub directory. Plots can show amino acid substitutions of catalytic or any other protein sequence sites. These have to be types inside of the main.py script at:
+   specified_position = [c]
+  additional_positions = [a,b,c,d,e] where specified position HAS TO be included in the additional positions!
+
+Specified position is represented with a dashed line and all other additional substitutions are colored based on the new aquired frustrational state (green - minimally frustrated, grey - neutral, red - highly frustrated). On the lower x-axis amino acid of the first common ancestors are showed, while on the top x-axis amino acids of the trajectory protein (a protein whose changes in the trajectory the plot is showing) and they are all colored by their frustation state. This way we present the initial frustration state, as well as the final one. The last common ancestor sequence has to be stated in the main.py script as its FASTA ID at:
+
+$   specified_position_fst_state = fst_states.get(('node_76', specified_position[0]), None)
+$   node76_fst_state = fst_states.get(('node_76', additional_positions[0]), None)
+
+$   node76_fst_state = fst_states.get(('node_76', pos), None)
+
+$   node_76_aa_sequence = sequences.get('node_76')
+
+Comparisons are made in pairs starting from the first common ancestor and the next protein sequence in the tajectory. 
+
 
 
 
