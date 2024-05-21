@@ -44,6 +44,8 @@ $   node_76_aa_sequence = sequences.get('node_76')
 
 Comparisons are made in pairs starting from the first common ancestor and the next protein sequence in the tajectory. 
 
+![Alt Text](exampe_aa_sub_lactamases.png)
 
+-> from the paper: "Fig. 3. Time-dependent frustration and amino acid substitution trajectory plots. A) Vibrio Ex25 amino acid substitution trajectory plot. The plot shows amino acid substitutions of catalytic and surrounding residues that occurred in the Vibrio Ex25 trajectory where the residue of interest (substitution K209R) is represented with a dashed line and all substitutions are colored based on the new frustrational state (green - minimally frustrated, grAy - neutral, red - highly frustrated). B) E. Coli amino acid substitution trajectory plot. When comparing Vibrio and E. Coli trajectories, we observe a region around catalytic S130(105) with no amino acid changes in the Vibrio trajectory and a couple of changes in E. Coli trajectory. C) Vibrio Ex25 amino acid substitution plot where the residue of interest is represented with a dashed line (K209R). All showed substitutions are in mutational contact with the catalytic site K209, based on the output results from FrustraEvo. Substitutions are colored based on the new frustrational state. D) 1BTL lactamase reference structure with the catalytic K209 residue colored in yellow and contact residues colored in red. All residues seem to be close to one another in space."
 
 
